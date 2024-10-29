@@ -1,0 +1,30 @@
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Style dasar untuk dark mode */
+  body.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Style untuk tombol */
+  .theme-toggle-btn {
+    padding: px 5px;
+    background-color:#e5e7eb;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 25px;
+    width: 40px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .theme-toggle-btn:hover {
+    background-color: #555;
+  }

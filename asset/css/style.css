@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --bgc-primary: rgb(207, 226, 255);
+  --bgc-secondary: rgb(250, 200, 152);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1200px;
+  justify-self: center;
+}
+
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.bungkus-judul-berita {
+  display: flex;
+  justify-content: center;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Atur efek bayangan */
+  border-radius: 50px;
+  /* Sudut membulat (opsional) */
+  padding: 20px;
+  /* Ruang di dalam elemen (opsional) */
+  background-color: white;
+  /* Warna latar belakang (opsional) */
+  transition: box-shadow 0.3s;
+  /* Efek transisi saat hover */
+}
+
+.shadow-1 {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Atur efek bayangan */
+  border-radius: 50px;
+  /* Sudut membulat (opsional) */
+  padding: 20px;
+  /* Ruang di dalam elemen (opsional) */
+  background-color: transparent;
+  /* Warna latar belakang (opsional) */
+  transition: box-shadow 0.3s;
+  /* Efek transisi saat hover */
+}
+
+.shadow-2 {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Atur efek bayangan */
+  border-radius: 30px;
+  /* Sudut membulat (opsional) */
+  padding: 20px;
+  /* Ruang di dalam elemen (opsional) */
+  background-color: transparent;
+  /* Warna latar belakang (opsional) */
+  transition: box-shadow 0.3s;
+  /* Efek transisi saat hover */
+}
+
+.text-menu {
+  text-decoration: none;
+  color: rgb(91, 91, 91);
+  font-size: 16px;
+}
+
+.jud-pengumuman {
+  font-size: 16px;
+  margin: 0%;
+}
+
+.ket-menu {
+  font-size: 15px;
+  margin: 0%;
+  color: rgb(96, 95, 95);
+  text-decoration: none;
+}
+
+.group-menu {
+  border: 1px solid rgb(228, 227, 227);
+  padding: 15px;
+  border-radius: 20px;
+  transition: color 0.3s ease;
+  justify-content: center;
+}
+
+.menu {
+  transition: box-shadow 0.3s ease;
+  border-radius: 20px;
+}
+
+.menu:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Atur efek bayangan */
+  border-radius: 20px;
+  /* Sudut membulat (opsional) */
+  border: none;
+  background-color: transparent;
+  /* Warna latar belakang (opsional) */
+  transition: box-shadow 0.3s ease;
+
+}
+
+.bendera {
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid rgb(207, 207, 207);
+}
+
+.btn-jud {
+  border-bottom: 1px solid rgb(169, 169, 169);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.h4-jud {
+  font-family: inherit;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.btn-eskul {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 30px;
+  background-color: rgb(255, 119, 0);
+}
+
+.color-samping-pg {
+  border-left: 5px solid #0b8efb;
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+}
+
+.bg-jurusan {
+  border: 1px solid rgb(173, 173, 173);
+  background-color: transparent;
+  padding: 10px 10px;
+}
+
+.bg-eskul {
+  border: none;
+  background-color: rgb(255, 119, 0);
+
+  padding: 10px 10px;
+}
+
+.custom-carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+@media (max-width: 520px) {
+  .img-jurkul {
+    width: 60px;
+  }
+
+  .carousel-inner {
+    height: 150px;
+  }
+
+  .carousel-item img {
+    height: 150px;
+  }
+
+  .group-menu {
+    justify-content: left;
+  }
+
+}
+
+@media (max-width:920px) {
+  .res-text .card-text {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 404px) {
+  .img-jurkul {
+    width: 40px;
+  }
+
+  .group-menu {
+    justify-content: left;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .swiper-full .swiper-slide {
+    height: 150px;
+  }
+
+  .er {
+    height: 150px;
+  }
+
+
+}
+
+@media (max-width: 385px) {
+
+  .carousel-inner {
+    height: 120px;
+  }
+
+  .carousel-item img {
+    height: 120px;
+  }
+
+  .group-menu {
+    justify-content: left;
+  }
+
+}
+
+@media (max-width: 325px) {
+  .img-jurkul {
+    width: 25px;
+  }
+
+  .group-menu {
+    justify-content: left;
+  }
+}
