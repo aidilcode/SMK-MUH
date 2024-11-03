@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="asset/css/nav-tabs.css">
     <link rel="stylesheet" href="asset/css/dark-light.css">
     <link rel="stylesheet" href="asset/css/testimonials.css">
+    <link rel="stylesheet" href="asset/css/font.css">
+    <link rel="stylesheet" href="asset/css/footer.css">
 
     <!-- CSS Ekstern -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
@@ -27,7 +29,7 @@
 <body>
     <!-- Nav -->
     <nav style="background-color:inherit;" class="navbar sticky-top">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="asset/img/1667804467.silbr biru.png" alt="Logo" width="100" height="50"
                     class="d-inline-block align-text-top">
@@ -37,9 +39,9 @@
                     <button class="theme-toggle-btn" id="themeToggle">
                         🌞
                     </button>
-                    <a href="">
-                        <img src="https://cdn-icons-png.flaticon.com/128/2840/2840204.png" width="30px" height="30"
-                            alt="">
+                    <a href="https://api.whatsapp.com/send/?phone=6285609826022&text&type=phone_number&app_absent=0">
+                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968841.png" width="27px" height="27"
+                            alt="whatsaap">
                     </a>
                     <button class="bendera">
                         <img src="https://cdn-icons-png.flaticon.com/128/8029/8029509.png" width="30px" height="30"
@@ -51,36 +53,72 @@
     </nav>
     <!-- End-Nav -->
 
-    <!-- Breadcumb -->
-    <div class="container">
-        <div class="alert alert-primary d-flex align-items-center mt-3 rounded-3 color-samping-pg " role="alert">
-            <div class="ms-2 ">
-                <h4 class="poppins-medium mb-2 jud-pengumuman ">🚨 Information</h4>
-                <p class="poppins-regular small m-0">❗ Smk Muhhamadiyah 02 Palembang Telah Mebuka PPDB Tahun Ajaran 2024
-                    - 2025</p>
-                <p class="poppins-regular small m-0">❗ Gratis SPP 3 Bulan Bagi Pendaftaran Bulan Januari - Maret</p>
+
+        <!-- Breadcumb -->
+    <section id="information" class="container mt-3 bungkus-information">
+        <div class="alert-primary rounded-3" role="alert">
+            <div class="p-2">
+                <h4 class="poppins-bold mb-2 jud-pengumuman ">🚨 Information</h4>
+                <ul class="m-0 ps-3">
+                    <li class="m-0 info poppins-medium lh-base" >❗ SMK Muhhamadiyah 02 Palembang adalah SMK Pusat Keunggulan dengan 4 Program Kejuruan</li>
+                    <li class="m-0 info poppins-medium lh-base" >❗ Gratis SPP 3 Bulan Bagi Pendaftaran Bulan Januari - Maret</li>
+                </ul>
             </div>
         </div>
-    </div>
-
+    </section>
     <!-- End Breadcumb -->
 
+    <!-- Sambutan  -->
+     <div class="container mt-5">
+        <div class="row row-cols-sm-1 row-cols-lg-2 row-cols-1 row-cols-md-1">
+            <div class="col bungkus-text-welcome">
+                <h4 class="fs-2 poppins-semibold lh-base text-secondary-emphasis">Selamat datang di Portal <br> <span class="welcome-smk">SMK Muhhamadiyah 02 Palembang</span></h4>
+                <div class="justify-content-center d-flex gap-5">
+                    <hr class="w-50">
+                    <hr class="w-50">
+                </div>
+                <p class="fs-6 poppins-regular lh-lg d-none d-md-block">Di sini, kami hadirkan informasi terbaru mengenai program pendidikan, kegiatan siswa, dan prestasi yang terus kami banggakan. Semoga website 
+                    ini menjadi jendela inspirasi dan informasi, serta mendekatkan kita semua dalam semangat mencerdaskan generasi.</p>
+                    <div class="d-none d-md-block">
+                        <div class=" bungkus-btn-welcome d-flex">
+                            <button class="btn-tkj">Daftar Sekarang</button>
+                            <Button class="btn-pilih ms-3">Jelajahi Portal</Button>
+                        </div>
+                    </div>
+            </div>
+            <div class="col">
+                <img src="asset/img/bg-sambutan.png" class="img-sambutan img-fluid w-auto" alt="">
+
+                <div class="bungkus-btn-welcome d-flex d-block d-md-none">
+                    <button class="btn-tkj">Daftar Sekarang</button>
+                    <Button class="btn-pilih ms-3">Jelajahi Portal</Button>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- End Sambutan -->
+
     <!-- Senction Slider -->
-    <div class="container mt-5">
-        <div class="er">
+    <section id="slider" class="container mt-5 pt-5">
+        <div class="text-center">
+            <button class="btn-jud text-center">
+                <h4 class="h4-jud ">Spotlight</h4>
+            </button>
+        </div>
+        <div class="er mt-5">
             <div class="swiper-full align-items-center">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="https://www.kinhealth.it/images/_trattamenti/kin-1.jpg"
+                    <div class="swiper-slide"><img src="asset/img/smk-silber-slide.webp"
                             alt="KinHealth - Trattamenti" class="img-fluid" /></div>
-                    <div class="swiper-slide"><img src="https://www.kinhealth.it/images/_trattamenti/kin-2.jpg"
+                    <div class="swiper-slide"><img src="asset/img/smk-slide-1.webp"
                             alt="KinHealth - Trattamenti" class="img-fluid" /></div>
-                    <div class="swiper-slide"><img src="https://www.kinhealth.it/images/_trattamenti/kin-3.jpg"
+                    <div class="swiper-slide"><img src="asset/img/smk-silber-slide.webp"
                             alt="KinHealth - Trattamenti" class="img-fluid" /></div>
-                    <div class="swiper-slide"><img src="https://www.kinhealth.it/images/_trattamenti/kin-4.jpg"
+                    <div class="swiper-slide"><img src="asset/img/smk-slide-1.webp"
                             alt="KinHealth - Trattamenti" class="img-fluid" /></div>
-                    <div class="swiper-slide"><img src="https://www.kinhealth.it/images/_trattamenti/kin-5.jpg"
+                    <div class="swiper-slide"><img src="asset/img/smk-silber-slide.webp"
                             alt="KinHealth - Trattamenti" class="img-fluid" /></div>
-                    <div class="swiper-slide"><img src="https://www.kinhealth.it/images/_trattamenti/kin-6.jpg"
+                    <div class="swiper-slide"><img src="asset/img/smk-slide-1.webp"
                             alt="KinHealth - Trattamenti" class="img-fluid" /></div>
                 </div>
 
@@ -88,48 +126,51 @@
                 <div class="swiper-button-next"></div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- End Slider -->
 
     <!-- Section Menu -->
-    <div class="container mt-4">
+    <section id="menu-app" class="container mt-5">
         <div class="mb-3 text-center">
             <button class="btn-jud">
-                <h4 class="h4-jud">Pusat Informasi</h4>
+                <h4 class="h4-jud">Menu Lainnya</h4>
             </button>
         </div>
-        <div class="container">
+        <div class="container mt-5">
             <div
                 class=" card-group group-menu row row-cols-3 row-cols-sm-4 row-cols-md-6 row-cols-lg-8 row-cols-xl-auto gap-lg-5 align-items-center ">
                 <div class=" text-center  col menu p-3">
                     <a class="ket-menu" href="#">
                         <img src="https://cdn-icons-png.flaticon.com/128/167/167707.png" style="max-width: 60px;"
                             class="" alt="">
-                        <h4 class=" ket-menu poppins-medium card-title mt-3">Jelajahi Sekolah</h4>
+                        <h4 class=" ket-menu poppins-medium card-title mt-3">Profile</h4>
                     </a>
                 </div>
                 <div class=" text-center  col menu p-3">
-                    <img src="https://cdn-icons-png.flaticon.com/128/9070/9070622.png" style="max-width: 60px;" class=""
-                        alt="">
-                    <h4 class=" ket-menu poppins-medium card-title mt-3 ">Moments</h4>
+                    <a class="ket-menu" href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9070/9070622.png" style="max-width: 60px;"
+                            class="" alt="">
+                        <h4 class=" ket-menu poppins-medium card-title mt-3">Moments</h4>
+                    </a>
                 </div>
                 <div class=" text-center  col menu p-3">
-                    <img src="https://cdn-icons-png.flaticon.com/128/1021/1021100.png" style="max-width: 60px;" class=""
-                        alt="">
-                    <h4 class=" ket-menu poppins-medium card-title mt-3">Sang Juara </h4>
+                    <a class="ket-menu" href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1021/1021100.png" style="max-width: 60px;"
+                            class="" alt="">
+                        <h4 class=" ket-menu poppins-medium card-title mt-3">Sang Juara</h4>
+                    </a>
                 </div>
                 <div class=" text-center  col menu p-3">
                     <a class="ket-menu" href="#">
                         <img src="https://cdn-icons-png.flaticon.com/128/2257/2257031.png" style="max-width: 60px;"
                             class="" alt="">
-                        <h4 class=" ket-menu poppins-medium card-title mt-3">Ekstra</h4>
+                        <h4 class=" ket-menu poppins-medium card-title mt-3">Ekstrakuri</h4>
                     </a>
                 </div>
-                <div class=" text-center  col menu p-3">
-                    <a class="ket-menu" href="#">
+                <div data-bs-toggle="modal" data-bs-target="#exampleModal"  class=" text-center  col menu p-3">
                         <img src="https://cdn-icons-png.flaticon.com/128/6352/6352833.png" style="max-width: 60px;"
                             class="" alt="">
-                        <h4 class=" ket-menu poppins-medium card-title mt-3">Program Keahlian</h4>
+                        <h4 class="text-muted poppins-medium card-title mt-3">Jurusan</h4>
                     </a>
                 </div>
                 <div class=" text-center  col menu p-3">
@@ -149,27 +190,29 @@
 
             </div>
         </div>
-    </div>
+    </section>
     <!-- End Menu -->
 
     <!-- Section News -->
-    <div class="container mt-5">
-        <nav>
+    <section id="news" class="container mt-5">
+        <div class="text-center">
+            <button class="btn-jud text-center">
+                <h4 class="h4-jud">Silber News</h4>
+            </button>
+        </div>
+        <nav class="mt-5">
             <div class="nav nav-tabs justify-content-around" id="nav-tab" role="tablist">
-                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Berita Terbaru</button>
-                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
-
+                <button class="nav-link active" id="nav-news-tab" data-bs-toggle="tab" data-bs-target="#nav-news"
+                    type="button" role="tab" aria-controls="nav-news" aria-selected="true">Berita Terbaru</button>
+                <button class="nav-link" id="nav-feed-tab" data-bs-toggle="tab" data-bs-target="#nav-feed"
+                    type="button" role="tab" aria-controls="nav-feed" aria-selected="false">Feed Sosial Media</button>
             </div>
         </nav>
         <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active mt-4 d-flex gap-3 justify-content-center " id="nav-home"
-                role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-
+            <div class="tab-pane fade show active mt-4 d-flex gap-3 justify-content-center " id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab" tabindex="0">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="card">
+                        <div class="card-tab">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img alt="Image of a session flyer with text and a small photo of a person"
@@ -191,7 +234,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card-tab">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img alt="Image of a flyer with text '30 Days Try Out Challenge'" class="img-fluid"
@@ -212,7 +255,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card-tab">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img alt="Image of a government building" class="img-fluid"
@@ -236,7 +279,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card">
+                        <div class="card-tab">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img alt="Image of a calendar with a plant in the background" class="img-fluid"
@@ -257,7 +300,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card-tab">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img alt="Image of a group of people in uniform" class="img-fluid"
@@ -279,7 +322,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card-tab">
                             <div class="row g-0">
                                 <div class="col-md-4">
                                     <img alt="Image of a document with text" class="img-fluid"
@@ -302,26 +345,53 @@
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-                ...</div>
+
+            <div class="tab-pane fade" id="nav-feed" role="tabpanel" aria-labelledby="nav-feed-tab" tabindex="0">
+                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+                    <div class="col">
+                        <div class="instagram-feed">
+                            <!-- Kode Embed Instagram -->
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DA7ddkzhlCz/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/DA7ddkzhlCz/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==">Post</a>
+                            </blockquote>
+                            <!-- Tambahkan lebih banyak kode embed sesuai kebutuhan -->
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="instagram-feed">
+                            <!-- Kode Embed Instagram -->
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DA7ddkzhlCz/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/DA7ddkzhlCz/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==">Post</a>
+                            </blockquote>
+                            <!-- Tambahkan lebih banyak kode embed sesuai kebutuhan -->
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="instagram-feed">
+                            <!-- Kode Embed Instagram -->
+                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DA7ddkzhlCz/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" data-instgrm-version="13">
+                                <a href="https://www.instagram.com/p/DA7ddkzhlCz/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==">Post</a>
+                            </blockquote>
+                            <!-- Tambahkan lebih banyak kode embed sesuai kebutuhan -->
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
     <!-- End Berita -->
 
     <!-- Section Major -->
-    <div class="container mt-3 mb-5">
-        <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+    <section id="major" class="container mt-5 mb-5">
+        <div class=" row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1 align-items-center">
             <div class="col text-center d-none d-md-block">
-                <img src="asset/img/bg-1.png" class="img-fluid w-100" alt="">
+                <img src="asset/img/bg-program.png" class="img-fluid w-100" alt="">
             </div>
             <div class="col text-center">
                 <div class="container">
                     <button class="btn-jud">
-                        <h4 class="h4-jud">Program Keahlian</h4>
+                        <h4 class="h4-jud">Program Jurusan</h4>
                     </button>
                     <div class="group-menu row row-cols-md-2 row-cols-2 row-cols-lg-4 mt-4 rounded-4 ">
                         <div class="text-center col menu p-3">
@@ -355,7 +425,11 @@
                     </div>
                 </div>
 
-                <div class="containe mt-3 text-center">
+                <div class="col text-center d-block d-md-none mt-5">
+                    <img src="asset/img/gambar-jur.png" class="img-fluid w-100" alt="">
+                </div>
+
+                <div class="containe mt-5 text-center d-none d-md-block">
                     <button class="btn-jud">
                         <h4 class="h4-jud">Buruan Daftar</h4>
                         <p class="fs-6">SMK Muhhamadiyah 02 Palembang</p>
@@ -371,11 +445,220 @@
 
             </div>
         </div>
-    </div>
+    </section>
     <!-- End Major -->
 
+    <!-- Benefit Jurusan -->
+    <section class="container mt-5">
+        <div id="judul-benefit" class="text-center">
+            <button class="btn-jud">
+                <h4 class="h4-jud">Benefit Jurusan </h4>
+            </button>
+        </div>
+        <div class="row mt-5  row-cols-1 row-cols-lg-4 row-cols-md-2 row-cols-sm-1 w-auto">
+
+            
+
+            <div class="col">
+                <div class="card card-benefit pt-3 pe-2 ps-2 pb-4 mt-5">
+                    <h4 class=" jur-benefit lh-base ps-1 pe-1 text-center">Desain Komunikasi <br>Visual</h4>
+                    <hr class="ps-2 pe-2 mt-2 ">
+                    <ul class="m-0 list-unstyled ps-2 pe-2">
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                    </ul>
+                    <div class="text-center mt-3">
+                        <button class="btn-pilih poppins-medium">
+                            Pilih Jurusan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <button class="paling-laris text-center poppins-semibold" >MINAT TERBANYAK !!</button>
+                <div class=" card-tkj card pt-3 pe-2 ps-2 pb-4 ">
+                    <h4 class=" jur-benefit poppins-medium pe-1 ps-1 lh-base text-center">Teknik Jaringan Komputer & Telekomunikasi</h4>
+                    <hr class="ps-2 pe-2 mt-2 ">
+                    <ul class="m-0 list-unstyled ps-2 pe-2">
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                    </ul>
+                    <div class="text-center mt-3">
+                        <button class="btn-tkj poppins-medium">
+                            Pilih Jurusan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card card-benefit pt-3 pe-2 ps-2 pb-4 mt-5">
+                    <h4 class=" jur-benefit lh-base ps-1 pe-1 text-center">Bisnis Daring <br> Pemasaran</h4>
+                    <hr class="ps-2 pe-2 mt-2 ">
+                    <ul class="m-0 list-unstyled ps-2 pe-2">
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                    </ul>
+                    <div class="text-center mt-3">
+                        <button class="btn-pilih poppins-medium">
+                            Pilih Jurusan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-benefit pt-3 pe-2 ps-2 pb-4 mt-5">
+                    <h4 class=" jur-benefit lh-base ps-1 pe-1 text-center">Akutansi Keuangan <br> Lembaga</h4>
+                    <hr class="ps-2 pe-2 mt-2 ">
+                    <ul class="m-0 list-unstyled ps-2 pe-2">
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                        <li class="text-benefit p-0"><i class="bi bi-check-lg fs-5 text-success me-2"></i>Menguasai Jaringan dan Siap dalam Menghadapi Industri Masa Depan</li>
+                    </ul>
+                    <div class="text-center mt-3">
+                        <button class="btn-pilih poppins-medium">
+                            Pilih Jurusan
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+    <!-- End-Benefit -->
+
+<!-- Start - Acordion -->
+    <section class="container mt-5">
+        <div id="judul-benefit" class="text-center">
+            <button class="btn-jud">
+                <h4 class="h4-jud">Pertanyaan ? </h4>
+            </button>
+        </div>
+        <div class="row mt-5 w-auto">
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-4 border-0 card-tab">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body ">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item rounded-4 card-tab mt-4">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item rounded-4 card-tab mt-4">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+        <div class="containe mt-3 text-center d-block d-md-none">
+            <button class="btn-jud">
+                <h4 class="h4-jud">Buruan Daftar</h4>
+                <p class="fs-6">SMK Muhhamadiyah 02 Palembang</p>
+            </button>
+            <div class="text-center col p-3 mt-3">
+                <a class="ket-menu" href="#">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2784/2784403.png" style="max-width: 80px;"
+                        class="" alt="">
+                    <h4 class=" ket-menu poppins-medium card-title mt-3 fs-6">Daftarkan Dirimu</h4>
+                </a>
+            </div>
+        </div>
+
+    </section>
+<!-- End-Acordion -->
+
+    <!-- Modal -->
+    <section>
+        <div id="exampleModal" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content rounded-4">
+                <div class="modal-header">
+                  <h5 class="modal-title">Pilih Jurusan</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+    
+                    <div class="container text-center">
+                        <div class="group-menu row row-cols-md-2 row-cols-2 row-cols-lg-4 mt-4 rounded-4 ">
+                            <div class="text-center col menu p-3">
+                                <a class="ket-menu" href="#">
+                                    <img src="https://cdn-icons-png.flaticon.com/128/1372/1372856.png"
+                                        style="max-width: 60px;" class="" alt="">
+                                    <h4 class=" ket-menu poppins-medium card-title mt-3">Network</h4>
+                                </a>
+                            </div>
+                            <div class=" text-centercol menu p-3">
+                                <a class="ket-menu" href="#">
+                                    <img src="https://cdn-icons-png.flaticon.com/128/3941/3941356.png"
+                                        style="max-width: 60px;" class="" alt="">
+                                    <h4 class=" ket-menu poppins-medium card-title mt-3">Desaign</h4>
+                                </a>
+                            </div>
+                            <div class=" text-center  col menu p-3">
+                                <a class="ket-menu" href="#">
+                                    <img src="https://cdn-icons-png.flaticon.com/128/609/609045.png"
+                                        style="max-width: 60px;" class="" alt="">
+                                    <h4 class=" ket-menu poppins-medium card-title mt-3">Pemasaran</h4>
+                                </a>
+                            </div>
+                            <div class=" text-center  col menu p-3">
+                                <a class="ket-menu" href="#">
+                                    <img src="https://cdn-icons-png.flaticon.com/128/13728/13728571.png"
+                                        style="max-width: 60px;" class="" alt="">
+                                    <h4 class=" ket-menu poppins-medium card-title mt-3">Akutansi</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- End-Modal -->
+
+
     <!-- Testimonials -->
-    <div class="container mt-5">
+    <section id="testimonials" class="container mt-5">
         <div class="section-testmonials">
             <div class="column-testmonials">
                 <div class="section-details">
@@ -546,13 +829,71 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- End Testimonials -->
 
+    <!-- Fotter -->
+    <footer class="footer mt-5">
+        <div class="footer-container container mt-5">
+          <!-- Section Logo dan Deskripsi -->
+          <div class="footer-about">
+            <h3>Company Name</h3>
+            <p>Deskripsi singkat tentang perusahaan Anda. Misalnya, visi, misi, atau nilai utama yang dipegang oleh perusahaan.</p>
+          </div>
+      
+          <!-- Section Informasi Kontak -->
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@company.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Street Name, City, Country</p>
+          </div>
+      
+          <!-- Section Map Lokasi -->
+          <div class="footer-map">
+            <h3>Our Location</h3>
+            <!-- Embedding Google Maps -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.938891921665!2d144.96328031569116!3d-37.80865127975152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zTMOjbmRzIDM3wrA0OSc0Ny4zIk4gMTQ0wrA1OCczMy4yIkU!5e0!3m2!1sen!2sus!4v1611366673689!5m2!1sen!2sus" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+      
+          <!-- Section Media Sosial -->
+          <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#"><img src="icon-facebook.png" alt="Facebook"></a>
+              <a href="#"><img src="icon-twitter.png" alt="Twitter"></a>
+              <a href="#"><img src="icon-instagram.png" alt="Instagram"></a>
+              <a href="#"><img src="icon-linkedin.png" alt="LinkedIn"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom ">
+          <p>&copy; 2024 Propscode. M Ashaf Shodiqin.</p>
+        </div>
+      </footer>
+      <!-- end-fotter -->
+
+    
+    <script async src="//www.instagram.com/embed.js"></script>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script src="asset/js/script.js"></script>
+
+<script>
+    function updateScreenWidth() {
+        const screenWidth = window.innerWidth;
+        document.documentElement.style.setProperty('--screen-width', `${screenWidth}px`);
+    }
+
+        // Panggil fungsi saat halaman dimuat
+        updateScreenWidth();
+
+        // Panggil fungsi setiap kali ukuran layar berubah
+        window.addEventListener('resize', updateScreenWidth);
+
+</script>
+
 
 </html>

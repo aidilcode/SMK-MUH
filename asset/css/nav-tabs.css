@@ -11,14 +11,14 @@
     color: #6c757d;
 }
 
-.card {
+.card-tab {
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
-.card img {
+.card-tab img {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     object-fit: cover;
@@ -33,11 +33,13 @@
 .card-title {
     font-size: 0.8rem;
     font-weight: bold;
+    line-height: 1.5;
 }
 
 .card-text {
     font-size: 0.875rem;
     color: #6c757d;
+    margin-top: 5%;
 }
 
 .card-date {
@@ -46,11 +48,11 @@
 }
 
 @media (max-width: 767.98px) {
-    .card {
+    .card-tabs {
         flex-direction: column;
     }
 
-    .card img {
+    .card-tab img {
         border-radius: 10px 10px 0 0;
         height: auto;
     }
