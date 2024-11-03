@@ -5,167 +5,19 @@
   --bgc-secondary: rgb(250, 200, 152);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  max-width: 1200px;
   justify-self: center;
 }
 
-.merriweather-light {
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: normal;
+.container {
+  max-width: 1100px !important;
 }
 
-.merriweather-regular {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.merriweather-bold {
-  font-family: "Merriweather", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.merriweather-black {
-  font-family: "Merriweather", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.merriweather-light-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.merriweather-regular-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.merriweather-bold-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.merriweather-black-italic {
-  font-family: "Merriweather", serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-.poppins-thin {
-  font-family: "Poppins", serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.poppins-extralight {
-  font-family: "Poppins", serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.poppins-light {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-regular {
-  font-family: "Poppins", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-bold {
-  font-family: "Poppins", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-extrabold {
-  font-family: "Poppins", serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.poppins-black {
-  font-family: "Poppins", serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.poppins-thin-italic {
-  font-family: "Poppins", serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", serif;
-  font-weight: 900;
-  font-style: italic;
-}
 
 .bungkus-judul-berita {
   display: flex;
@@ -211,15 +63,16 @@ body {
   /* Efek transisi saat hover */
 }
 
-.text-menu {
-  text-decoration: none;
-  color: rgb(91, 91, 91);
-  font-size: 16px;
-}
 
 .jud-pengumuman {
   font-size: 16px;
   margin: 0%;
+  color: #052c65;
+}
+
+.jur-benefit{
+  font-size: 16px;
+  color: rgb(45, 45, 45);
 }
 
 .ket-menu {
@@ -228,6 +81,13 @@ body {
   color: rgb(96, 95, 95);
   text-decoration: none;
 }
+
+.jarak-konten{
+  margin-top: 8%;
+}
+
+
+
 
 .group-menu {
   border: 1px solid rgb(228, 227, 227);
@@ -270,9 +130,38 @@ body {
 }
 
 .h4-jud {
-  font-family: inherit;
+  
   background-color: transparent;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.card-tkj{
+  border: 2px solid #01a8e8 !important;
+  border-radius: 13px !important;
+  border-top-right-radius: 0% !important;
+  border-top-left-radius: 0% !important;
+}
+
+
+.paling-laris{
+  background-color: #01a8e8;
+  border: none;
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 18px;
+  color: white;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+
+}
+
+.card-benefit{
+  border: 2px solid #01a8e8 !important;
+  border-radius: 13px !important;
+}
+
+.welcome-smk{
+  color: #01a8e8;
 }
 
 .btn-eskul {
@@ -282,11 +171,13 @@ body {
   background-color: rgb(255, 119, 0);
 }
 
-.color-samping-pg {
-  border-left: 5px solid #0b8efb;
-  border-bottom: none;
-  border-right: none;
-  border-top: none;
+.alert-primary {
+  background-color: #eff6ff !important;
+  border-left: 5px solid #01a8e8 !important;
+  border-top: none !important;
+  border-right:none !important ;
+  border-bottom: none !important;
+  padding: 5px;
 }
 
 .bg-jurusan {
@@ -302,16 +193,79 @@ body {
   padding: 10px 10px;
 }
 
+.btn-pilih{
+  border: 2px solid #01a8e8;
+  padding: 10px 0px;
+  background-color:transparent;
+  border-radius: 10px;
+  width: 80%;
+  color:#01a8e8;
+}
+.btn-pilih:hover{
+  border: 2px solid #01a8e8;
+  padding: 10px 0px;
+  background-color:#01a8e8;
+  border-radius: 10px;
+  width: 80%;
+  color:white;
+}
+
+.btn-tkj{
+  border: none;
+  padding: 12px 0px;
+  background-color: #01a8e8;
+  border-radius: 10px;
+  color:white;
+  width: 80%;
+}
+
+.btn-tkj:hover{
+  border: 2px solid #01a8e8;
+  padding: 10px 0px;
+  background-color:transparent;
+  border-radius: 10px;
+  width: 80%;
+  color:#01a8e8;
+}
+
 .custom-carousel {
   width: 80%;
   margin: 0 auto;
 }
 
+.text-benefit{
+  font-size: 14px;
+  color: #052c65;
+  margin-bottom: 7%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.info{
+  color: #052c65;
+  font-size: 15px;
+}
+
+.instagram-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width:768px) {
+  .info{
+    font-size: 12px;
+  }
+}
 
 
 @media (max-width: 520px) {
   .img-jurkul {
     width: 60px;
+  }
+
+  .paling-laris{
+    margin-top: 45px;
   }
 
   .carousel-inner {
@@ -322,21 +276,42 @@ body {
     height: 150px;
   }
 
-  .group-menu {
-    justify-content: left;
+
+  .info{
+    font-size: 12px;
   }
 
+  .bungkus-btn-welcome{
+    margin-top: 10%;
+  }
+
+  .bungkus-text-welcome{
+    justify-content: center;
+    text-align: center;
+  }
+
+
 }
+
 
 @media (max-width:920px) {
   .res-text .card-text {
     font-size: 10px;
   }
+
+
 }
 
 @media (max-width: 404px) {
   .img-jurkul {
     width: 40px;
+  }
+  .info{
+    font-size: 13px;
+  }
+
+  .jud-pengumuman{
+    font-size: 14px;
   }
 
   .group-menu {
@@ -350,9 +325,30 @@ body {
     height: 150px;
   }
 
+  .bungkus-text-welcome{
+    justify-content: center;
+    text-align: center;
+  }
+  .paling-laris{
+    margin-top: 45px;
+  }
   .er {
     height: 150px;
   }
+  .text-benefit{
+    text-align: center;
+  }
+  .img-sambutan{
+    justify-content: center;
+  }
+  .ucapan{
+    justify-content: center;
+    text-align: center;
+  }
+  .bungkus-btn-welcome{
+    margin-top: 10%;
+  }
+
 
 
 }
@@ -363,13 +359,33 @@ body {
     height: 120px;
   }
 
+  .bungkus-text-welcome{
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .img-sambutan{
+    justify-content: center;
+    width: auto;
+  }
+
   .carousel-item img {
     height: 120px;
+  }
+
+  .paling-laris{
+    margin-top: 45px;
   }
 
   .group-menu {
     justify-content: left;
   }
+
+  .info{
+    font-size: 12px;
+  }
+
 
 }
 
@@ -377,8 +393,22 @@ body {
   .img-jurkul {
     width: 25px;
   }
+  .paling-laris{
+    margin-top: 45px;
+  }
+  .bungkus-text-welcome{
+    justify-content: center;
+    text-align: center;
+  }
 
   .group-menu {
     justify-content: left;
   }
+
+  .info{
+    font-size: 12px;
+    color: #052c65;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
 }
