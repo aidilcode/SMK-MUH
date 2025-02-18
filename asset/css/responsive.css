@@ -1,0 +1,129 @@
+@media (max-width: 385px) {
+
+    .carousel-inner {
+        height: 120px;
+    }
+
+    .bungkus-text-welcome {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .img-sambutan {
+        justify-content: center;
+        width: auto;
+    }
+
+    .carousel-item img {
+        height: 120px;
+    }
+
+    .paling-laris {
+        margin-top: 45px;
+    }
+
+    .group-menu {
+        justify-content: left;
+    }
+
+    .info {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 325px) {
+    .img-jurkul {
+        width: 25px;
+    }
+
+    .paling-laris {
+        margin-top: 45px;
+    }
+
+    .bungkus-text-welcome {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .group-menu {
+        justify-content: left;
+    }
+
+    .info {
+        font-size: 12px;
+        color: #052c65;
+    }
+
+    .instagram-feed {
+        max-width: max-content !important;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+    .img-jurkul {
+        width: 60px;
+    }
+
+    .group-menu {
+        justify-content: left;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .paling-laris {
+        margin-top: 45px;
+    }
+
+    .carousel-inner {
+        height: 150px;
+    }
+
+    .carousel-item img {
+        height: 150px;
+    }
+
+
+    .info {
+        font-size: 12px;
+    }
+
+    .bungkus-btn-welcome {
+        margin-top: 10%;
+    }
+
+    .bungkus-text-welcome {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .instagram-feed {
+        max-width: 500px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .info {
+        font-size: 12px;
+    }
+
+    .img-sambutan {
+        justify-content: center;
+        width: 50%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .res-text .card-text {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 1399.98px) {}

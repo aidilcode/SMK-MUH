@@ -121,7 +121,7 @@ body {
 }
 
 .btn-jud {
-  border-bottom: 1px solid rgb(169, 169, 169);
+  border-bottom: 3px solid rgb(1,168,232);
   border-top: none;
   border-left: none;
   border-right: none;
@@ -130,7 +130,6 @@ body {
 }
 
 .h4-jud {
-  
   background-color: transparent;
   font-size: 25px;
 }
@@ -173,11 +172,14 @@ body {
 
 .alert-primary {
   background-color: #eff6ff !important;
-  border-left: 5px solid #01a8e8 !important;
   border-top: none !important;
   border-right:none !important ;
   border-bottom: none !important;
-  padding: 5px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 20px;
 }
 
 .bg-jurusan {
@@ -194,6 +196,15 @@ body {
 }
 
 .btn-pilih{
+  border: none;
+  padding: 10px 0px;
+  background-color:transparent;
+  border-radius: 10px;
+  width: 80%;
+  color:#01a8e8;
+}
+
+.btn-first-outline{
   border: 2px solid #01a8e8;
   padding: 10px 0px;
   background-color:transparent;
@@ -201,32 +212,27 @@ body {
   width: 80%;
   color:#01a8e8;
 }
-.btn-pilih:hover{
-  border: 2px solid #01a8e8;
-  padding: 10px 0px;
-  background-color:#01a8e8;
-  border-radius: 10px;
-  width: 80%;
-  color:white;
-}
+
 
 .btn-tkj{
   border: none;
   padding: 12px 0px;
-  background-color: #01a8e8;
+  background-color: transparent;
   border-radius: 10px;
   color:white;
   width: 80%;
 }
 
-.btn-tkj:hover{
-  border: 2px solid #01a8e8;
-  padding: 10px 0px;
-  background-color:transparent;
+.btn-first{
+  border: none;
+  padding: 12px 0px;
+  background-color:#01a8e8 ;
   border-radius: 10px;
+  color:white;
   width: 80%;
-  color:#01a8e8;
 }
+
+
 
 .custom-carousel {
   width: 80%;
@@ -242,173 +248,152 @@ body {
 }
 .info{
   color: #052c65;
-  font-size: 15px;
 }
 
+.empat-jurusan{
+  color: black;
+  font-size: 15px;
+}
+/* 
 .instagram-feed {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+} */
+
+.navbar {
+  transition: top 0.3s ease-in-out;
+  top: 0; /* Mulai dengan navbar tersembunyi */
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
 }
 
-@media (max-width:768px) {
-  .info{
-    font-size: 12px;
-  }
+.btn-first, 
+.btn-first-outline {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+.btn-first:hover, 
+.btn-first-outline:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
-@media (max-width: 520px) {
-  .img-jurkul {
-    width: 60px;
-  }
-
-  .paling-laris{
-    margin-top: 45px;
-  }
-
-  .carousel-inner {
-    height: 150px;
-  }
-
-  .carousel-item img {
-    height: 150px;
-  }
-
-
-  .info{
-    font-size: 12px;
-  }
-
-  .bungkus-btn-welcome{
-    margin-top: 10%;
-  }
-
-  .bungkus-text-welcome{
-    justify-content: center;
-    text-align: center;
-  }
-
-
+.benefit-animasi {
+  position: relative;
+  width: 50%;
 }
 
 
-@media (max-width:920px) {
-  .res-text .card-text {
-    font-size: 10px;
-  }
-
-
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
 }
 
-@media (max-width: 404px) {
-  .img-jurkul {
-    width: 40px;
-  }
-  .info{
-    font-size: 13px;
-  }
 
-  .jud-pengumuman{
-    font-size: 14px;
-  }
-
-  .group-menu {
-    justify-content: left;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-  }
-
-  .swiper-full .swiper-slide {
-    height: 150px;
-  }
-
-  .bungkus-text-welcome{
-    justify-content: center;
-    text-align: center;
-  }
-  .paling-laris{
-    margin-top: 45px;
-  }
-  .er {
-    height: 150px;
-  }
-  .text-benefit{
-    text-align: center;
-  }
-  .img-sambutan{
-    justify-content: center;
-  }
-  .ucapan{
-    justify-content: center;
-    text-align: center;
-  }
-  .bungkus-btn-welcome{
-    margin-top: 10%;
-  }
-
-
-
+.benefit-animasi:hover .overlay {
+  height: 100%;
+  border-radius: 10px;
 }
 
-@media (max-width: 385px) {
-
-  .carousel-inner {
-    height: 120px;
-  }
-
-  .bungkus-text-welcome{
-    justify-content: center;
-    text-align: center;
-  }
-
-
-  .img-sambutan{
-    justify-content: center;
-    width: auto;
-  }
-
-  .carousel-item img {
-    height: 120px;
-  }
-
-  .paling-laris{
-    margin-top: 45px;
-  }
-
-  .group-menu {
-    justify-content: left;
-  }
-
-  .info{
-    font-size: 12px;
-  }
-
-
+.btn-overlay {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-@media (max-width: 325px) {
-  .img-jurkul {
-    width: 25px;
-  }
-  .paling-laris{
-    margin-top: 45px;
-  }
-  .bungkus-text-welcome{
-    justify-content: center;
-    text-align: center;
-  }
 
-  .group-menu {
-    justify-content: left;
-  }
+/* Efek teks berganti */
+.welcome-smk {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  border-right: 3px solid;
+  animation: typing 2s steps(30) 1s forwards, blink 0.7s step-end infinite;
+}
 
-  .info{
-    font-size: 12px;
-    color: #052c65;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+.navbar-nav .nav-link {
+  position: relative;
+  padding-bottom: 5px;
+  transition: color 0.3s ease-in-out;
+}
 
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff; /* Warna garis */
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after, 
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+
+
+/* Efek typing */
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+/* Efek blink cursor */
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+}
+
+/* Efek menghapus */
+@keyframes erase {
+  from {
+      width: 100%;
+  }
+  to {
+      width: 0;
+  }
+}
+
+.bounce2 {
+  animation: bounce2 2s ease infinite;
+}
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+.pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  from { transform: scale(0.9); }
+  to { transform: scale(1); }
 }
